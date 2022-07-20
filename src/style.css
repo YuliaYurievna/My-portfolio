@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #a463ff;
-  --secondary-color: linear-gradient(68.7deg, rgb(235, 217, 221) 8%, rgb(216, 174, 211) 55.4%, rgb(145, 130, 196) 91.1%);
+  --branding-color: #721bffbf;
+  --secondary-color: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --bow-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -51,6 +51,10 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 45px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: black;
   font-family: var(--heading-font-family);
@@ -62,7 +66,6 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
 
 .hero {
   background: var(--secondary-color);
@@ -125,7 +128,7 @@ p {
 }
 
 .content-container {
-  padding: 140px 20px 160px;
+  padding: 30px 20px 160px;
 }
 
 .content {
@@ -147,10 +150,6 @@ p {
   font-size: 14px;
 }
 
-.content-container {
-  padding: 160px 20px;
-}
-
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -167,6 +166,35 @@ p {
   font-size: 14px;
 }
 
+footer {
+  margin: 100px 0 60px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
 
 @media (max-width: 900px) {
   nav {
@@ -184,6 +212,10 @@ p {
 
   h2 {
     font-size: 40px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   p {
@@ -211,6 +243,10 @@ p {
     padding: 0;
   }
 
+  .content-container {
+    padding: 160px 20px;
+  }
+
   .content h1 {
     font-size: 42px;
     line-height: 60px;
@@ -221,28 +257,12 @@ p {
     padding: 0;
   }
 
+  footer .email-link {
+    font-size: 20px;
+  }
+
 }
 
-
-.nav {
-  font-size: 20px;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--branding-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
 
 
 
