@@ -120,7 +120,7 @@ p {
 }
 
 .content {
-  padding: 60px 40px 30px;
+  padding: 60px 40px 40px;
   background: var(--secondary-color);
   border-radius: 10px;
 }
@@ -248,7 +248,7 @@ footer .social-links a:hover {
 
   .content {
     text-align: center;
-    padding: 0;
+    padding: 40px 20px 20px;
   }
 
   footer {
