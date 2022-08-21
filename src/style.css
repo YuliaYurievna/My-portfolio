@@ -119,21 +119,18 @@ p {
   padding: 160px 20px 160px;
 }
 
+.content-container h2 {
+  text-align: center;
+}
+
 .content {
   padding: 60px 40px 40px;
   background: var(--secondary-color);
   border-radius: 10px;
 }
 
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--default-font-family);
+.content-communication {
+  text-align: center;
 }
 
 .content p {
@@ -141,8 +138,9 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 50px;
   line-height: 80px;
+  text-align: center;
 }
 
 .content h3 {
@@ -152,12 +150,26 @@ p {
   opacity: 1;
 }
 
-.content p {
-  font-size: 14px;
+.content .technology-icon {
+  margin-right: 5px;
+  color: rgba(45, 8, 59, 0.737);
+  padding: 10px 18px 0;
+  border-radius: 50%;
+  font-size: 40px;
+  transition: all 100ms ease-in-out;
+}
+
+.projects {
+  padding: 80px 20px 40px;
+}
+
+.projects a:hover {
+  opacity: 0.5;
+  transition: all 100ms ease-in-out;
 }
 
 footer {
-  margin: 160px 0 60px;
+  margin: 100px 0 60px;
 }
 
 footer .contact-box {
@@ -180,6 +192,7 @@ footer .social-links a {
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 footer .email-link {
@@ -232,13 +245,12 @@ footer .social-links a:hover {
     padding: 100px 20px;
   }
 
-  .content {
-    text-align: center;
-    padding-bottom: 20px;
+  .content-container {
+    padding: 120px 20px;
   }
 
   .content-container {
-    padding: 120px 20px;
+    text-align: center;
   }
 
   .content h1 {
@@ -246,9 +258,8 @@ footer .social-links a:hover {
     line-height: 60px;
   }
 
-  .content {
-    text-align: center;
-    padding: 40px 20px 20px;
+  .technologies {
+    justify-content: center;
   }
 
   footer {
