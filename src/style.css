@@ -168,6 +168,10 @@ p {
   transition: all 100ms ease-in-out;
 }
 
+.project-description h2 {
+  text-align: left;
+}
+
 footer {
   margin: 100px 0 60px;
 }
