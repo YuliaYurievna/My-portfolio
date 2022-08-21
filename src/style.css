@@ -160,7 +160,7 @@ p {
 }
 
 .projects {
-  padding: 80px 20px 40px;
+  padding: 80px 20px 0;
 }
 
 .projects a:hover {
